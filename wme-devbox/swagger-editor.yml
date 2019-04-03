@@ -1,0 +1,7 @@
+version: '2'
+services:
+    swagger-editor:
+        container_name: wme-swagger-editor
+        image: swaggerapi/swagger-editor:latest
+        ports:
+            - 7742:8080
